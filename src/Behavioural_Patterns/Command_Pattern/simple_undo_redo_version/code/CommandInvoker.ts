@@ -13,7 +13,7 @@ export class CommandInvoker {
 
     public undo(): void {
         if (this.undoStack.length > 0) {
-            const command = this.undoStack.pop()!;
+            const command: Command = this.undoStack.pop()!;
             command.unExecute();
             this.redoStack.push(command); // Guardamos el comando para un posible redo
         }
