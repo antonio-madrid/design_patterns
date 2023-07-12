@@ -9,7 +9,10 @@
     "scripts": {
         "start": "ts-node src/init.ts",
         "simple_command": "ts-node src/Behavioural_Patterns/Command_Pattern/simple_undo_redo_version/code/Client.ts",
-        "undo_command": "ts-node src/Behavioural_Patterns/Command_Pattern/normal_undo_version/code/Client.ts"
+        "undo_command": "ts-node src/Behavioural_Patterns/Command_Pattern/normal_undo_version/code/Client.ts",
+        "adapter_target": "ts-node src/Structural_Patterns/Adapter_Pattern/target_adapter/code/Client.ts",
+        "adapter_mp4": "ts-node src/Structural_Patterns/Adapter_Pattern/mp4_adapter/code/Client.ts",
+        "adapter_peg": "ts-node src/Structural_Patterns/Adapter_Pattern/Square_pegs_adapter/code/Client.ts"
     },
   "dependencies": {
     "ts-node": "^10.9.1",
