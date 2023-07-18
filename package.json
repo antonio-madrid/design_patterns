@@ -15,7 +15,8 @@
         "adapter_peg": "ts-node src/Structural_Patterns/Adapter_Pattern/Square_pegs_adapter/code/Client.ts",
         "factory_method_concept": "ts-node src/Creational_Patterns/Factory_Method/conceptual_example/code/client/Client.ts",
         "factory_method_ui": "ts-node src/Creational_Patterns/Factory_Method/cross-platform_ui/code/client/Application.ts",
-        "factory_method_vehicles": "ts-node src/Creational_Patterns/Factory_Method/vehicles_example/code/client/Client.ts"
+        "factory_method_vehicles": "ts-node src/Creational_Patterns/Factory_Method/vehicles_example/code/client/Client.ts",
+        "factory_method_mail": "ts-node src/Creational_Patterns/Factory_Method/mail_company/code/client/Client.ts"
     },
   "dependencies": {
     "ts-node": "^10.9.1",
