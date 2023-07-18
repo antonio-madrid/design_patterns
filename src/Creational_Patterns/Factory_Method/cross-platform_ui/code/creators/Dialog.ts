@@ -2,7 +2,7 @@ import {Button} from "../products/Button";
 
 /** This class would act as the abstract base Creator class */
 abstract class Dialog {
-    protected abstract createButton(): Button;
+    public abstract createButton(): Button;
 
     public render(): void {
         const okButton: Button = this.createButton();
