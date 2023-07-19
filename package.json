@@ -8,16 +8,16 @@
   "license": "MIT",
     "scripts": {
         "start": "ts-node src/init.ts",
-        "simple_command": "ts-node src/Behavioural_Patterns/Command_Pattern/simple_undo_redo_version/code/Client.ts",
-        "undo_command": "ts-node src/Behavioural_Patterns/Command_Pattern/normal_undo_version/code/Client.ts",
-        "adapter_target": "ts-node src/Structural_Patterns/Adapter_Pattern/target_adapter/code/Client.ts",
-        "adapter_mp4": "ts-node src/Structural_Patterns/Adapter_Pattern/mp4_adapter/code/Client.ts",
-        "adapter_peg": "ts-node src/Structural_Patterns/Adapter_Pattern/Square_pegs_adapter/code/Client.ts",
-        "factory_method_concept": "ts-node src/Creational_Patterns/Factory_Method/conceptual_example/code/client/Client.ts",
-        "factory_method_ui": "ts-node src/Creational_Patterns/Factory_Method/cross-platform_ui/code/client/Application.ts",
-        "factory_method_vehicles": "ts-node src/Creational_Patterns/Factory_Method/vehicles_example/code/client/Client.ts",
-        "factory_method_mail": "ts-node src/Creational_Patterns/Factory_Method/mail_company/code/client/Client.ts",
-        "factory_method_round_button": "ts-node src/Creational_Patterns/Factory_Method/round_buttons/code/client/client.ts"
+        "command:simple_version": "ts-node src/Behavioural_Patterns/Command_Pattern/simple_undo_redo_version/code/Client.ts",
+        "command:undo": "ts-node src/Behavioural_Patterns/Command_Pattern/normal_undo_version/code/Client.ts",
+        "adapter:target": "ts-node src/Structural_Patterns/Adapter_Pattern/target_adapter/code/Client.ts",
+        "adapter:mp4": "ts-node src/Structural_Patterns/Adapter_Pattern/mp4_adapter/code/Client.ts",
+        "adapter:peg": "ts-node src/Structural_Patterns/Adapter_Pattern/Square_pegs_adapter/code/Client.ts",
+        "factory_method:concept": "ts-node src/Creational_Patterns/Factory_Method/conceptual_example/code/client/Client.ts",
+        "factory_method:ui": "ts-node src/Creational_Patterns/Factory_Method/cross-platform_ui/code/client/Application.ts",
+        "factory_method:vehicles": "ts-node src/Creational_Patterns/Factory_Method/vehicles_example/code/client/Client.ts",
+        "factory_method:mail": "ts-node src/Creational_Patterns/Factory_Method/mail_company/code/client/Client.ts",
+        "factory_method:round_button": "ts-node src/Creational_Patterns/Factory_Method/round_buttons/code/client/client.ts"
     },
   "dependencies": {
     "ts-node": "^10.9.1",
