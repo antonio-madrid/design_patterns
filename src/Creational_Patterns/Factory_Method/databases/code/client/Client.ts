@@ -7,10 +7,9 @@ const connection1: DatabaseConnection = factory.createConnection(); // it create
 connection1.connect();
 
 const connection2: DatabaseConnection = factory.createConnection(); // It will reuse the existing DB connection
-connection2.connect();
+connection2.connect(); // This would reconnect to the same DB
 
-connection1.disconnect();
-connection2.disconnect();
+connection1.disconnect(); // This would close both connections
 
 
 const alternativeFactory: DatabaseConnectionFactory = new AlternativeDatabaseConnectionFactory();
@@ -18,7 +17,6 @@ const alternativeConnection1: DatabaseConnection = alternativeFactory.createConn
 alternativeConnection1.connect();
 
 const alternativeConnection2: DatabaseConnection = alternativeFactory.createConnection();
-alternativeConnection2.connect();
+alternativeConnection2.connect(); // This would reconnect to the same DB
 
 alternativeConnection1.disconnect();
-alternativeConnection2.disconnect();
