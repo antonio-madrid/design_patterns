@@ -1,4 +1,4 @@
-import {Command} from "./Command";
+import {Command} from "./commands/Command";
 
 export class AddCommand implements Command {
     constructor(private list: string[], private item: string) {}

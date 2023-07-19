@@ -1,6 +1,6 @@
 // El objeto Sender podría ser un button por ejemplo
 import {CommandHistory} from "./CommandHistory";
-import {Command} from "./Command";
+import {Command} from "./commands/Command";
 
 export class Invoker_or_Sender {
 

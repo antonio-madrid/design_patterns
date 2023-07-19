@@ -1,5 +1,5 @@
 import {AddCommand} from "./AddCommand";
-import {CommandInvoker} from "./CommandInvoker";
+import {CommandInvoker} from "./commands/CommandInvoker";
 
 let list: string[] = [];
 const invoker: CommandInvoker = new CommandInvoker();

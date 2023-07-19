@@ -1,7 +1,7 @@
 import {Invoker} from "./Invoker";
-import {SimpleCommand} from "./SimpleCommand";
+import {SimpleCommand} from "./commands/SimpleCommand";
 import {Receiver} from "./Receiver";
-import {ComplexCommand} from "./ComplexCommand";
+import {ComplexCommand} from "./commands/ComplexCommand";
 
 // Creating the invoker
 const invoker = new Invoker();

@@ -1,6 +1,6 @@
 import {Receiver} from "./Receiver";
-import {ConcreteCommand} from "./ConcreteCommand";
-import {ConcreteCommand2} from "./ConcreteCommand2";
+import {ConcreteCommand} from "./commands/ConcreteCommand";
+import {ConcreteCommand2} from "./commands/ConcreteCommand2";
 import {Invoker_or_Sender} from "./Invoker";
 
 // El código cliente se encarga generalmente de configurar los comandos

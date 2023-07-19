@@ -1,4 +1,4 @@
-import {Receiver} from "./Receiver";
+import {Receiver} from "../Receiver";
 
 export abstract class Command {
     protected receiver: Receiver;

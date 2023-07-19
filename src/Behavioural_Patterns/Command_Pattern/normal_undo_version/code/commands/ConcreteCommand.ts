@@ -1,5 +1,5 @@
 import {Command} from "./Command";
-import {Receiver} from "./Receiver";
+import {Receiver} from "../Receiver";
 
 export class ConcreteCommand extends Command {
 

@@ -8,8 +8,9 @@
   "license": "MIT",
     "scripts": {
         "start": "ts-node src/init.ts",
-        "command:simple_version": "ts-node src/Behavioural_Patterns/Command_Pattern/simple_undo_redo_version/code/Client.ts",
-        "command:undo": "ts-node src/Behavioural_Patterns/Command_Pattern/normal_undo_version/code/Client.ts",
+        "command:normal_undo_version": "ts-node src/Behavioural_Patterns/Command_Pattern/normal_undo_version/code/Client.ts ",
+        "command:simple_undo_redo_version": "ts-node src/Behavioural_Patterns/Command_Pattern/simple_undo_redo_version/code/Client.ts",
+        "command:simple_vs_complex_version": "ts-node src/Behavioural_Patterns/Command_Pattern/simple_vs_complex_version/code/Client.ts ",
         "adapter:target": "ts-node src/Structural_Patterns/Adapter_Pattern/target_adapter/code/Client.ts",
         "adapter:mp4": "ts-node src/Structural_Patterns/Adapter_Pattern/mp4_adapter/code/Client.ts",
         "adapter:peg": "ts-node src/Structural_Patterns/Adapter_Pattern/Square_pegs_adapter/code/Client.ts",
