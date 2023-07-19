@@ -16,7 +16,8 @@
         "factory_method_concept": "ts-node src/Creational_Patterns/Factory_Method/conceptual_example/code/client/Client.ts",
         "factory_method_ui": "ts-node src/Creational_Patterns/Factory_Method/cross-platform_ui/code/client/Application.ts",
         "factory_method_vehicles": "ts-node src/Creational_Patterns/Factory_Method/vehicles_example/code/client/Client.ts",
-        "factory_method_mail": "ts-node src/Creational_Patterns/Factory_Method/mail_company/code/client/Client.ts"
+        "factory_method_mail": "ts-node src/Creational_Patterns/Factory_Method/mail_company/code/client/Client.ts",
+        "factory_method_round_button": "ts-node src/Creational_Patterns/Factory_Method/round_buttons/code/client/client.ts"
     },
   "dependencies": {
     "ts-node": "^10.9.1",
