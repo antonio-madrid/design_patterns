@@ -1,7 +1,7 @@
 {
   "name": "design_patterns",
   "version": "1.0.0",
-  "description": "A serie of design pattern samples",
+  "description": "A series of design pattern samples",
   "main": "index.ts",
   "repository": "https://github.com/silex189/design_patterns",
   "author": "Antonio Madrid",
@@ -18,7 +18,8 @@
         "factory_method:ui": "ts-node src/Creational_Patterns/Factory_Method/cross-platform_ui/code/client/Application.ts",
         "factory_method:vehicles": "ts-node src/Creational_Patterns/Factory_Method/vehicles_example/code/client/Client.ts",
         "factory_method:mail": "ts-node src/Creational_Patterns/Factory_Method/mail_company/code/client/Client.ts",
-        "factory_method:round_button": "ts-node src/Creational_Patterns/Factory_Method/round_buttons/code/client/client.ts"
+        "factory_method:round_button": "ts-node src/Creational_Patterns/Factory_Method/round_buttons/code/client/client.ts",
+        "factory_method:db_connections": "ts-node src/Creational_Patterns/Factory_Method/databases/code/client/Client.ts"
     },
   "dependencies": {
     "ts-node": "^10.9.1",
