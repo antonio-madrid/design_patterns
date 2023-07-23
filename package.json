@@ -23,7 +23,10 @@
         "factory_method:enemy_factory": "ts-node src/Creational_Patterns/Factory_Method/enemy_factory/code/client/Client.ts",
         "factory_method:mail_system": "ts-node src/Creational_Patterns/Factory_Method/mail_system/code/client/Client.ts",
         "proxy:youtube_manager": "ts-node src/Structural_Patterns/Proxy/Youtube_manager/code/client/Application.ts",
-        "proxy:concept": "ts-node src/Structural_Patterns/Proxy/proxy_concept/code/client/Client.ts\n"
+        "proxy:concept": "ts-node src/Structural_Patterns/Proxy/proxy_concept/code/client/Client.ts",
+        "performance_patterns:lazy_loading:library_loading": "ts-node src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
+        "performance_patterns:memoization:fibonnaci": "ts-node src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts",
+        "perfomance_patterns:lazy_initialization:data_class": "ts-node src/Performance_Patterns/Lazy_Initialization/data_class/index.ts "
     },
   "dependencies": {
     "ts-node": "^10.9.1",
