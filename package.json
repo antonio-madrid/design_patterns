@@ -8,6 +8,7 @@
   "license": "MIT",
     "scripts": {
         "start": "ts-node src/init.ts",
+        "principles:composition": "ts-node src/Principles/Composition_principle.ts",
         "command:normal_undo_version": "ts-node src/Behavioural_Patterns/Command_Pattern/normal_undo_version/code/Client.ts ",
         "command:simple_undo_redo_version": "ts-node src/Behavioural_Patterns/Command_Pattern/simple_undo_redo_version/code/Client.ts",
         "command:simple_vs_complex_version": "ts-node src/Behavioural_Patterns/Command_Pattern/simple_vs_complex_version/code/Client.ts ",
@@ -22,11 +23,13 @@
         "factory_method:db_connections": "ts-node src/Creational_Patterns/Factory_Method/databases/code/client/Client.ts",
         "factory_method:enemy_factory": "ts-node src/Creational_Patterns/Factory_Method/enemy_factory/code/client/Client.ts",
         "factory_method:mail_system": "ts-node src/Creational_Patterns/Factory_Method/mail_system/code/client/Client.ts",
+        "abstract_factory:concept": "ts-node src/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code/client/Client.ts",
+        "abstract_factory:ui_buttons": "ts-node src/Creational_Patterns/Abstract_Factory/Button_abstract_factory/code/client/Client.ts",
         "proxy:youtube_manager": "ts-node src/Structural_Patterns/Proxy/Youtube_manager/code/client/Application.ts",
         "proxy:concept": "ts-node src/Structural_Patterns/Proxy/proxy_concept/code/client/Client.ts",
         "performance_patterns:lazy_loading:library_loading": "ts-node src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
         "performance_patterns:memoization:fibonnaci": "ts-node src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts",
-        "perfomance_patterns:lazy_initialization:data_class": "ts-node src/Performance_Patterns/Lazy_Initialization/data_class/index.ts "
+        "perfomance_patterns:lazy_initialization:data_class": "ts-node src/Performance_Patterns/Lazy_Initialization/data_class/index.ts"
     },
   "dependencies": {
     "ts-node": "^10.9.1",

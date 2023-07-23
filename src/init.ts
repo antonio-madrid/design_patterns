@@ -3,3 +3,4 @@ export function lazy_load() {
 }
 
 console.log('Hello World')
+
