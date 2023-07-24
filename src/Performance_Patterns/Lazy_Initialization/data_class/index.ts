@@ -5,7 +5,7 @@ class Data {
         console.log('This object object creation does not initialize any data.')
     }
 
-    public  get data(): string[] {
+    public get data(): string[] {
         // it only creates the data the very first time
         if (!this._data) {
             console.log('Loading data for very first time...');
