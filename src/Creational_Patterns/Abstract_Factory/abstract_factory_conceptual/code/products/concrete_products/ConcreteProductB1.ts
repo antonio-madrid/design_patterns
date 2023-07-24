@@ -1,5 +1,5 @@
-import {AbstractProductB} from "../interfaces/AbstractProducB";
 import {AbstractProductA} from "../interfaces/AbstractProductA";
+import {AbstractProductB} from "../interfaces/AbstractProductB";
 
 class ConcreteProductB1 implements AbstractProductB {
     public usefulFunctionB(): string {

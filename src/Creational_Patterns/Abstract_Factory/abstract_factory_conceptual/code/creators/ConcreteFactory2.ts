@@ -1,7 +1,7 @@
 import {AbstractFactory} from "./AbstractFactory";
 import {AbstractProductA} from "../products/interfaces/AbstractProductA";
+import {AbstractProductB} from "../products/interfaces/AbstractProductB";
 import {ConcreteProductA2} from "../products/concrete_products/ConcreteProductA2";
-import {AbstractProductB} from "../products/interfaces/AbstractProducB";
 import {ConcreteProductB2} from "../products/concrete_products/ConcreteProductB2";
 
 class ConcreteFactory2 implements AbstractFactory {

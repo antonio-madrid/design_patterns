@@ -2,9 +2,9 @@ import {AbstractFactory} from "../creators/AbstractFactory";
 import {ConcreteFactory1} from "../creators/ConcreteFactory1";
 import {ConcreteFactory2} from "../creators/ConcreteFactory2";
 import {AbstractProductA} from "../products/interfaces/AbstractProductA";
-import {AbstractProductB} from "../products/interfaces/AbstractProducB";
+import {AbstractProductB} from "../products/interfaces/AbstractProductB";
 
-function clientCode(factory: AbstractFactory) {
+function clientCode(factory: AbstractFactory): void {
     const productA: AbstractProductA = factory.createProductA();
     const productB: AbstractProductB = factory.createProductB();
 

@@ -24,6 +24,7 @@
         "factory_method:enemy_factory": "ts-node src/Creational_Patterns/Factory_Method/enemy_factory/code/client/Client.ts",
         "factory_method:mail_system": "ts-node src/Creational_Patterns/Factory_Method/mail_system/code/client/Client.ts",
         "abstract_factory:concept": "ts-node src/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code/client/Client.ts",
+        "abstract_factory:furniture_shop": "ts-node src/Creational_Patterns/Abstract_Factory/furniture_factory/code/client/Client.ts",
         "abstract_factory:ui_buttons": "ts-node src/Creational_Patterns/Abstract_Factory/Button_abstract_factory/code/client/Client.ts",
         "proxy:youtube_manager": "ts-node src/Structural_Patterns/Proxy/Youtube_manager/code/client/Application.ts",
         "proxy:concept": "ts-node src/Structural_Patterns/Proxy/proxy_concept/code/client/Client.ts",
