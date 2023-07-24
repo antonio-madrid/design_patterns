@@ -31,6 +31,7 @@
         "proxy:protection": "ts-node src/Basic_Patterns/Structural_Patterns/Proxy/Protection_Proxy/code/client/Client.ts",
         "proxy:smart_reference": "ts-node src/Basic_Patterns/Structural_Patterns/Proxy/Smart_reference_Proxy/code/client/Client.ts",
         "proxy:virtual_proxy": "ts-node src/Basic_Patterns/Structural_Patterns/Proxy/Virtual_Proxy/code/client/Client.ts",
+        "proxy:remote_proxy": "ts-node src/Basic_Patterns/Structural_Patterns/Proxy/Remote_Proxy/code/client/Client.ts",
         "perfomance_patterns:lazy_initialization:data_class": "ts-node src/Performance_Patterns/Lazy_Initialization/data_class/index.ts",
         "performance_patterns:lazy_loading:library_loading": "ts-node src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
         "performance_patterns:memoization:fibonnaci": "ts-node src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts"

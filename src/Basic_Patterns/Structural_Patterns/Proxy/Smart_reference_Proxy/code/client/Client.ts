@@ -1,4 +1,3 @@
-import {ServiceInterface} from "../interfaces/ServiceInterface";
 import {SmartReferenceProxy} from "../proxies/SmartReferenceProxy";
 
 const proxy = new SmartReferenceProxy();
