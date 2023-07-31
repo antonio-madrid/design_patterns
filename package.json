@@ -24,6 +24,7 @@
         "factory_method:enemy_factory": "ts-node src/Basic_Patterns/Creational_Patterns/Factory_Method/enemy_factory/code/client/Client.ts",
         "factory_method:mail_system": "ts-node src/Basic_Patterns/Creational_Patterns/Factory_Method/mail_system/code/client/Client.ts",
         "abstract_factory:concept": "ts-node src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code/client/Client.ts",
+        "abstract_factory:colored_army": "ts-node src/Basic_Patterns/Creational_Patterns/Abstract_Factory/Colored_Army_Factory/code/client/Client.ts",
         "abstract_factory:furniture_shop": "ts-node src/Basic_Patterns/Creational_Patterns/Abstract_Factory/furniture_factory/code/client/Client.ts",
         "abstract_factory:ui_buttons": "ts-node src/Basic_Patterns/Creational_Patterns/Abstract_Factory/GUI_factory/code/client/Client.ts",
         "proxy:concept": "ts-node src/Basic_Patterns/Structural_Patterns/Proxy/proxy_concept/code/client/Client.ts",
