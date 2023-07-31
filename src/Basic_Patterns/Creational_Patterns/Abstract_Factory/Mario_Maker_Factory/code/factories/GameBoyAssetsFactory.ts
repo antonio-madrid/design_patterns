@@ -12,6 +12,7 @@ import {GameboyGoomba} from "../products/concrete_products/gameboy_products/Game
 import {GameboyBrickBlock} from "../products/concrete_products/gameboy_products/GameboyBrickBlock";
 import {GameboyQuestionBlock} from "../products/concrete_products/gameboy_products/GameboyQuestionBlock";
 
+/** Concrete Factory - It creates GameBoy family objects. */
 class GameBoyAssetsFactory implements AssetsFactory {
     public creteCoin(): Coin {
         return new GameboyCoin();

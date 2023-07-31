@@ -4,6 +4,7 @@ import {Coin} from "../../interfaces/Coin";
 import {New3dsStar} from "./New3dsStar";
 import {New3dsCoin} from "./New3dsCoin";
 
+/** Concrete Product of the New Super Mario Bros style family */
 class New3dsQuestionBlock implements QuestionBlock {
     public giveContent(): Star | Coin[] | Coin {
         console.log('Mario is using a New 3ds style question block.')

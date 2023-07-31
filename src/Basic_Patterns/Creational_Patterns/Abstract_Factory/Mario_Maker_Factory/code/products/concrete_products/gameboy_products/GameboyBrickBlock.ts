@@ -2,6 +2,7 @@ import {BrickBlock} from "../../interfaces/BrickBlock";
 import {Coin} from "../../interfaces/Coin";
 import {GameboyCoin} from "./GameboyCoin";
 
+/** Concrete Product of the GameBoy family */
 class GameboyBrickBlock implements BrickBlock {
     public giveContent(): Coin | void {
         console.log('Mario is using a GameBoy style brick block.')

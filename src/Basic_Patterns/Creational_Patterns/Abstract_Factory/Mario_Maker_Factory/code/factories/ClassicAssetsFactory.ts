@@ -12,6 +12,7 @@ import {ClassicBulletBill} from "../products/concrete_products/classic_products/
 import {ClassicStar} from "../products/concrete_products/classic_products/ClassicStar";
 import {ClassicQuestionBlock} from "../products/concrete_products/classic_products/ClassicQuestionBlock";
 
+/** Concrete Factory - It creates classic style family objects. */
 class ClassicAssetsFactory implements AssetsFactory {
     public creteCoin(): Coin {
         return new ClassicCoin();

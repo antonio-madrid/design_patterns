@@ -5,6 +5,7 @@ import {QuestionBlock} from "../products/interfaces/QuestionBlock";
 import {Goomba} from "../products/interfaces/Goomba";
 import {BulletBill} from "../products/interfaces/BulletBill";
 
+/** Abstract Factory */
 interface AssetsFactory {
     creteCoin(): Coin;
     createBrickBlock(): BrickBlock;

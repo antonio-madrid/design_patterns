@@ -2,6 +2,7 @@ import {BrickBlock} from "../../interfaces/BrickBlock";
 import {Coin} from "../../interfaces/Coin";
 import {New3dsCoin} from "./New3dsCoin";
 
+/** Concrete Product of the New Super Mario Bros style family */
 class New3dsBrickBlock implements BrickBlock {
     public giveContent(): Coin | void {
         console.log('Mario is using a New 3ds style brick block.')

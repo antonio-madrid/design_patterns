@@ -12,6 +12,7 @@ import {New3dsStar} from "../products/concrete_products/3ds_products/New3dsStar"
 import {New3dsBulletBill} from "../products/concrete_products/3ds_products/New3dsBulletBill";
 import {New3dsGoomba} from "../products/concrete_products/3ds_products/New3dsGoomba";
 
+/** Concrete Factory - It creates New Super Mario Bros family objects. */
 class New3dsAssetsFactory implements AssetsFactory {
     public creteCoin(): Coin {
         return new New3dsCoin();
