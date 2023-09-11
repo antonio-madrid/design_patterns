@@ -1,4 +1,4 @@
-import {Messenger} from "./Messenger";
+import {Messenger} from "../products/Messenger";
 
 /** A Concrete Product */
 class WhatsappMessenger implements Messenger {

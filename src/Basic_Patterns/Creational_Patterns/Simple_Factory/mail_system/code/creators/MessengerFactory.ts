@@ -3,7 +3,7 @@ import {SMSMessenger} from "../products/SMSMessenger";
 import {EmailMessenger} from "../products/EmailMessenger";
 import {WhatsappMessenger} from "../products/WhatsappMessenger";
 
-/** A Single Factory class */
+/** A Simple Factory class */
 class MessengerFactory {
     public createMessenger(type: string): Messenger {
         if (type === 'sms') {
