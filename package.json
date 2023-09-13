@@ -9,12 +9,13 @@
   "scripts": {
     "start": "ts-node src/init.ts",
     "principles:composition": "ts-node src/Principles/Composition_principle.ts",
-    "command:normal_undo_version": "ts-node src/Basic_Patterns/Behavioural_Patterns/Command_Pattern/normal_undo_version/code/Client.ts ",
-    "command:simple_undo_redo_version": "ts-node src/Basic_Patterns/Behavioural_Patterns/Command_Pattern/simple_undo_redo_version/code/Client.ts",
-    "command:simple_vs_complex_version": "ts-node src/Basic_Patterns/Behavioural_Patterns/Command_Pattern/simple_vs_complex_version/code/Client.ts ",
+    "command:normal_undo_version": "ts-node src/Basic_Patterns/Behavioural_Patterns/Command/normal_undo_version/code/Client.ts ",
+    "command:simple_undo_redo_version": "ts-node src/Basic_Patterns/Behavioural_Patterns/Command/simple_undo_redo_version/code/Client.ts",
+    "command:simple_vs_complex_version": "ts-node src/Basic_Patterns/Behavioural_Patterns/Command/simple_vs_complex_version/code/Client.ts ",
     "adapter:concept": "ts-node src/Basic_Patterns/Structural_Patterns/Adapter_Pattern/adapter_concept/code/Client.ts",
     "adapter:mp4": "ts-node src/Basic_Patterns/Structural_Patterns/Adapter_Pattern/mp4_adapter/code/Client.ts",
     "adapter:peg": "ts-node src/Basic_Patterns/Structural_Patterns/Adapter_Pattern/Square_pegs_adapter/code/Client.ts",
+    "memento:text_editor": "ts-node src/Basic_Patterns/Behavioural_Patterns/Memento/Text_editor/code/Client.ts",
     "factory_method:concept": "ts-node src/Basic_Patterns/Creational_Patterns/Factory_Method/factory_method_concept/code/client/Client.ts",
     "factory_method:ui": "ts-node src/Basic_Patterns/Creational_Patterns/Factory_Method/cross-platform_ui/code/client/Application.ts",
     "factory_method:vehicles": "ts-node src/Basic_Patterns/Creational_Patterns/Factory_Method/vehicles_example/code/client/Client.ts",
@@ -42,7 +43,7 @@
   },
   "dependencies": {
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.2.2"
   },
   "devDependencies": {
     "dotenv": "^16.3.1"
