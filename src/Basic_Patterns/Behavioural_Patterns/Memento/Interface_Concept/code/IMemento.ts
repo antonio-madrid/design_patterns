@@ -1,7 +1,7 @@
-interface Memento {
+interface IMemento {
     getState(): string;
     getName(): string;
     getDate(): string;
 }
 
-export { Memento };
+export { IMemento };

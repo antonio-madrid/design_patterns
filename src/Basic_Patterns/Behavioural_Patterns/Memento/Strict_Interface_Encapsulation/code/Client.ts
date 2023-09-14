@@ -4,13 +4,13 @@ import {Caretaker} from "./Caretaker";
 const originator = new Originator();
 const caretaker = new Caretaker();
 
-originator.type('First text line');
+originator.type('\n\tFirst text line');
 caretaker.addMemento(originator.save());
 
-originator.type('Second text line');
+originator.type('\n\tSecond text line');
 caretaker.addMemento(originator.save());
 
-originator.type('Third text line');
+originator.type('\n\tThird text line');
 
 console.log(`Current status: ${originator.getContent()}`);
 

@@ -17,12 +17,15 @@ class Originator {
         return this.content;
     }
 
+    /** Memento is taking the responsability to restore its linked Originator */
     public save(): IMemento {
         return new class Memento implements IMemento {
             constructor(
                 private originator: Originator,
                 private state: string) {}
 
+
+            /** Memento can access to its Originator private methods */
             public restore() {
                 this.originator.setState(this.state);
             }

@@ -1,8 +1,8 @@
-import {Memento} from "./Memento";
+import {IMemento} from "./IMemento";
 import {Originator} from "./Originator";
 
 class CareTaker {
-    private mementos: Memento[] = [];
+    private mementos: IMemento[] = [];
     private originator: Originator;
 
     constructor(originator: Originator) {
@@ -19,7 +19,7 @@ class CareTaker {
             return;
         }
 
-        const memento: Memento = this.mementos.pop()!;
+        const memento: IMemento = this.mementos.pop()!;
 
         console.log(`Caretaker: Restoring state to: ${memento.getName()}`)
         this.originator.restore(memento);

@@ -1,6 +1,6 @@
-import {Memento} from "./Memento";
+import {IMemento} from "./IMemento";
 
-class ConcreteMemento implements Memento {
+class ConcreteMemento implements IMemento {
     private state: string;
     private date: string;
 
