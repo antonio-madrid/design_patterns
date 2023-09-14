@@ -1,6 +1,6 @@
 import {Editor} from "./Editor";
 
-/** Memento */
+/** memento */
 class Snapshot {
     private editor: Editor;
     private text: string;

@@ -31,7 +31,7 @@ class Originator {
     }
 
     public restore(memento: IMemento): void {
-        this.state = memento.getState();
+        this.state = (memento as ConcreteMemento).getState();
         console.log(`Originator: My state has changed to: ${this.state}`);
     }
 

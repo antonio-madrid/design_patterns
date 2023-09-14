@@ -1,7 +1,8 @@
 import {Originator} from "./Originator";
 import {Caretaker} from "./Caretaker";
+import {IOriginator} from "./IOriginator";
 
-const originator = new Originator();
+const originator: IOriginator = new Originator();
 const caretaker = new Caretaker();
 
 originator.type('\n\tFirst text line');

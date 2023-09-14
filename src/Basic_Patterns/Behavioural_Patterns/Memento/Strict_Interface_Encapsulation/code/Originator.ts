@@ -1,6 +1,7 @@
 import {IMemento} from "./IMemento";
+import { IOriginator } from "./IOriginator";
 
-class Originator {
+class Originator implements IOriginator {
     private content: string = '';
 
     constructor() {}
@@ -17,7 +18,7 @@ class Originator {
         return this.content;
     }
 
-    /** Memento is taking the responsability to restore its linked Originator */
+    /** memento is taking the responsability to restore its linked Originator */
     public save(): IMemento {
         return new class Memento implements IMemento {
             constructor(
@@ -25,7 +26,7 @@ class Originator {
                 private state: string) {}
 
 
-            /** Memento can access to its Originator private methods */
+            /** memento can access to its Originator private methods */
             public restore() {
                 this.originator.setState(this.state);
             }

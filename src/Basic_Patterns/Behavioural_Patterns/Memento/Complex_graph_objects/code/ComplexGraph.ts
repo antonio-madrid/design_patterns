@@ -22,7 +22,7 @@ class ComplexGraph {
     }
 
     public createSnapshot(): IGraphSnapshot {
-        /** Memento class implementation */
+        /** memento class implementation */
         return new class GraphSnapshot implements IGraphSnapshot {
             constructor(
                 private originator: ComplexGraph,

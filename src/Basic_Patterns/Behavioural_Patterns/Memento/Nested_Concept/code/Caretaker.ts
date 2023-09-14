@@ -1,6 +1,6 @@
 import {Originator} from "./Originator";
 
-/** This caretaker is responsible for storing the Memento's history. */
+/** This caretaker is responsible for storing the memento's history. */
 class Caretaker {
     /** Nested classes types in TS are accessed in the Array way */
     private states: Originator['Memento'][] = [];
