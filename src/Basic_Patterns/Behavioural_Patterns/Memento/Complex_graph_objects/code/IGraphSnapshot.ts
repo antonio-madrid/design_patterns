@@ -1,4 +1,4 @@
-/** memento public interface */
+/** Memento public interface */
 interface IGraphSnapshot {
     restore(): void;
 }

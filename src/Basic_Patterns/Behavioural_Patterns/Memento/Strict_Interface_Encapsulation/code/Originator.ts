@@ -18,7 +18,7 @@ class Originator implements IOriginator {
         return this.content;
     }
 
-    /** memento is taking the responsability to restore its linked Originator */
+    /** Memento is taking the responsibility to restore its linked Originator */
     public save(): IMemento {
         return new class Memento implements IMemento {
             constructor(

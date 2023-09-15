@@ -1,0 +1,3 @@
+class OggCompressionCodec {}
+
+export { OggCompressionCodec };
