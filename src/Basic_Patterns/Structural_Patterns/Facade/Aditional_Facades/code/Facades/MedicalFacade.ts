@@ -1,6 +1,4 @@
-import {
-    MedicalRecors
-} from "../subsystems/MedicalRecors";
+import {MedicalRecors} from "../subsystems/MedicalRecors";
 
 class MedicalFacade {
     private medicalRecords: MedicalRecors;
@@ -15,4 +13,4 @@ class MedicalFacade {
     }
 }
 
-export { MedicalFacade };
+export {MedicalFacade};

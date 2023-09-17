@@ -38,6 +38,7 @@
     "abstract_factory:super_mario_maker": "ts-node src/Basic_Patterns/Creational_Patterns/Abstract_Factory/Mario_Maker_Factory/code/client/Client.ts",
     "abstract_factory:furniture_shop": "ts-node src/Basic_Patterns/Creational_Patterns/Abstract_Factory/furniture_factory/code/client/Client.ts",
     "abstract_factory:ui_buttons": "ts-node src/Basic_Patterns/Creational_Patterns/Abstract_Factory/GUI_factory/code/client/Client.ts",
+    "prototype:js_concept": "ts-node src/Basic_Patterns/Creational_Patterns/Prototype/JS_Concept/code/Client.ts",
     "singleton:concept": "ts-node src/Basic_Patterns/Creational_Patterns/Singleton/concept/code/Client.ts",
     "singleton:db_class": "ts-node src/Basic_Patterns/Creational_Patterns/Singleton/db_class/code/Client.ts",
     "proxy:concept": "ts-node src/Basic_Patterns/Structural_Patterns/Proxy/proxy_concept/code/client/Client.ts",

@@ -6,7 +6,7 @@ const appointment = new AppointmentFacade();
 const medical = new MedicalFacade();
 const payment = new PaymentFacade();
 
-appointment.arrangeAppointment(new Date("2023-10-01"), "Madrid Antonio");
+appointment.arrangeAppointment(new Date("2023-10-01"), "Dr Michael");
 
 medical.updateMedicalRecord("Madrid Antonio", "Flu");
 
