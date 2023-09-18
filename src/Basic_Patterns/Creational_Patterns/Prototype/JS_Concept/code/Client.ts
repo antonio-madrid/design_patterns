@@ -8,7 +8,7 @@ prototype1.primitive = 245;
 prototype1.component = new Date();
 prototype1.circularReference = new ComponentWithBackReference(prototype1);
 
-const prototype2 = prototype1.clone();
+const prototype2: Prototype = prototype1.clone();
 
 if (prototype1.primitive === prototype2.primitive) {
     console.log(
