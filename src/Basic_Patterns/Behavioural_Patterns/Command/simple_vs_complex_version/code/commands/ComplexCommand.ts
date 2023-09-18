@@ -1,4 +1,4 @@
-import {Receiver} from "../Receiver";
+import {Receiver} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_vs_complex_version/code/Receiver";
 
 export class ComplexCommand {
     private receiver: Receiver;

@@ -1,6 +1,6 @@
-import {Originator} from "./Originator";
-import {Caretaker} from "./Caretaker";
-import {IOriginator} from "./IOriginator";
+import {Originator} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Strict_Interface_Encapsulation/code/Originator";
+import {Caretaker} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Strict_Interface_Encapsulation/code/Caretaker";
+import {IOriginator} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Strict_Interface_Encapsulation/code/IOriginator";
 
 const originator: IOriginator = new Originator();
 const caretaker = new Caretaker();

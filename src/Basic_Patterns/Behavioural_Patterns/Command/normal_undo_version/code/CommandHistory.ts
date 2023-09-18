@@ -1,4 +1,4 @@
-import {Command} from "./commands/Command";
+import { Command} from "src/Basic_Patterns/Behavioural_Patterns/Command/normal_undo_version/code/commands/Command";
 
 export class CommandHistory {
     // Lista donde se almacenan los comandos

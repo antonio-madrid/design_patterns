@@ -1,4 +1,4 @@
-import {Command} from "./Command";
+import {Command} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_undo_redo_version/code/commands/Command"
 
 export class CommandInvoker {
     private undoStack: Command[] = [];

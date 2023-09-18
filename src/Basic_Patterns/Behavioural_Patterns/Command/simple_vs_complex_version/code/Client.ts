@@ -1,7 +1,11 @@
-import {Invoker} from "./Invoker";
-import {SimpleCommand} from "./commands/SimpleCommand";
-import {Receiver} from "./Receiver";
-import {ComplexCommand} from "./commands/ComplexCommand";
+import {Invoker} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_vs_complex_version/code/Invoker";
+import {
+    SimpleCommand
+} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_vs_complex_version/code/commands/SimpleCommand";
+import {Receiver} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_vs_complex_version/code/Receiver";
+import {
+    ComplexCommand
+} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_vs_complex_version/code/commands/ComplexCommand";
 
 // Creating the invoker
 const invoker = new Invoker();

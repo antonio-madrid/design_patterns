@@ -1,5 +1,5 @@
-import {IMemento} from "./IMemento";
-import {Originator} from "./Originator";
+import {IMemento} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Interface_Concept/code/IMemento";
+import {Originator} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Interface_Concept/code/Originator";
 
 class CareTaker {
     private mementos: IMemento[] = [];
@@ -33,4 +33,4 @@ class CareTaker {
     }
 }
 
-export { CareTaker };
+export {CareTaker};

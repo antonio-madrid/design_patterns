@@ -1,4 +1,4 @@
-import {Command} from "./commands/Command";
+import {Command} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_vs_complex_version/code/commands/Command";
 
 export class Invoker {
     // @ts-ignore

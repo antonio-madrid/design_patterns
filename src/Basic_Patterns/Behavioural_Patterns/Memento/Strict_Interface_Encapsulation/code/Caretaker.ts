@@ -1,4 +1,4 @@
-import {IMemento} from "./IMemento";
+import {IMemento} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Strict_Interface_Encapsulation/code/IMemento";
 
 class Caretaker {
     private states: IMemento[] = [];

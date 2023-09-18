@@ -1,4 +1,4 @@
-import {Editor} from "./Editor";
+import {Editor} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Text_editor/code/Editor";
 
 /** memento */
 class Snapshot {
@@ -23,4 +23,4 @@ class Snapshot {
     }
 }
 
-export { Snapshot };
+export {Snapshot};

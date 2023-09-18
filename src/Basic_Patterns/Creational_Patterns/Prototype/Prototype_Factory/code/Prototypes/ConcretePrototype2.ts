@@ -1,4 +1,4 @@
-import {Cloneable} from "./Cloneable";
+import {Cloneable} from "src/Basic_Patterns/Creational_Patterns/Prototype/Registry/code/Prototypes/Cloneable";
 
 
 class ConcretePrototype2 implements Cloneable {

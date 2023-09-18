@@ -1,4 +1,4 @@
-import {IMemento} from "./IMemento";
+import {IMemento} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Interface_Concept/code/IMemento";
 
 class ConcreteMemento implements IMemento {
     private state: string;
@@ -22,4 +22,4 @@ class ConcreteMemento implements IMemento {
     }
 }
 
-export { ConcreteMemento };
+export {ConcreteMemento};

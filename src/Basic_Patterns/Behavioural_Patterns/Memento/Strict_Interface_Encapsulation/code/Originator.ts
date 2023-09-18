@@ -1,5 +1,5 @@
-import {IMemento} from "./IMemento";
-import { IOriginator } from "./IOriginator";
+import {IMemento} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Strict_Interface_Encapsulation/code/IMemento";
+import { IOriginator } from "src/Basic_Patterns/Behavioural_Patterns/Memento/Strict_Interface_Encapsulation/code/IOriginator";
 
 class Originator implements IOriginator {
     private content: string = '';

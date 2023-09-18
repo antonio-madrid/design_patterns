@@ -1,8 +1,18 @@
-import {AbstractFactory} from "../factories/AbstractFactory";
-import {ConcreteFactory1} from "../factories/ConcreteFactory1";
-import {ConcreteFactory2} from "../factories/ConcreteFactory2";
-import {AbstractProductA} from "../products/interfaces/AbstractProductA";
-import {AbstractProductB} from "../products/interfaces/AbstractProductB";
+import {
+    AbstractFactory
+} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code/factories/AbstractFactory";
+import {
+    ConcreteFactory1
+} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code//factories/ConcreteFactory1";
+import {
+    ConcreteFactory2
+} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code//factories/ConcreteFactory2";
+import {
+    AbstractProductA
+} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code//products/interfaces/AbstractProductA";
+import {
+    AbstractProductB
+} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code//products/interfaces/AbstractProductB";
 
 function clientCode(factory: AbstractFactory): void {
     const productA: AbstractProductA = factory.createProductA();

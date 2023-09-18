@@ -1,5 +1,5 @@
-import {Editor} from "./Editor";
-import {Snapshot} from "./Snapshot";
+import {Editor} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Text_editor/code/Editor";
+import {Snapshot} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Text_editor/code/Snapshot";
 
 /** Caretaker */
 class Command {
@@ -21,4 +21,4 @@ class Command {
     }
 }
 
-export { Command };
+export {Command};

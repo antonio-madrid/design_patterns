@@ -1,4 +1,4 @@
-import {Cloneable} from "./Prototypes/Cloneable";
+import {Cloneable} from "src/Basic_Patterns/Creational_Patterns/Prototype/Registry/code/Prototypes/Cloneable";
 
 
 /** Prototype Factory as a Factory and a Register */

@@ -1,4 +1,4 @@
-import {Originator} from "./Originator";
+import {Originator} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Nested_Concept/code/Originator";
 
 /** This caretaker is responsible for storing the memento's history. */
 class Caretaker {

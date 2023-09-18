@@ -1,6 +1,6 @@
 // El objeto Sender podría ser un button por ejemplo
-import {CommandHistory} from "./CommandHistory";
-import {Command} from "./commands/Command";
+import {CommandHistory} from "src/Basic_Patterns/Behavioural_Patterns/Command/normal_undo_version/code/CommandHistory";
+import {Command} from "src/Basic_Patterns/Behavioural_Patterns/Command/normal_undo_version/code/commands/Command";
 
 export class Invoker_or_Sender {
 

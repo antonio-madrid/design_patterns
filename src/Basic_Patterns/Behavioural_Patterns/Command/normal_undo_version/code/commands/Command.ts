@@ -1,4 +1,4 @@
-import {Receiver} from "../Receiver";
+import {Receiver} from "src/Basic_Patterns/Behavioural_Patterns/Command/normal_undo_version/code/Receiver";
 
 export abstract class Command {
     protected receiver: Receiver;

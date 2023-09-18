@@ -1,8 +1,8 @@
-import {AbstractFactory} from "./AbstractFactory";
-import {AbstractProductA} from "../products/interfaces/AbstractProductA";
-import {AbstractProductB} from "../products/interfaces/AbstractProductB";
-import {ConcreteProductA1} from "../products/concrete_products/ConcreteProductA1";
-import {ConcreteProductB1} from "../products/concrete_products/ConcreteProductB1";
+import {AbstractFactory} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code/factories/AbstractFactory";
+import {AbstractProductA} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code//products/interfaces/AbstractProductA";
+import {AbstractProductB} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code//products/interfaces/AbstractProductB";
+import {ConcreteProductA1} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code//products/concrete_products/ConcreteProductA1";
+import {ConcreteProductB1} from "src/Basic_Patterns/Creational_Patterns/Abstract_Factory/abstract_factory_conceptual/code//products/concrete_products/ConcreteProductB1";
 
 class ConcreteFactory1 implements AbstractFactory {
     public createProductA(): AbstractProductA {

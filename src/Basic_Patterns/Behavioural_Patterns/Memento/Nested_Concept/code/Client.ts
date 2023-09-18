@@ -1,5 +1,5 @@
-import {Originator} from "./Originator";
-import {Caretaker} from "./Caretaker";
+import {Originator} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Nested_Concept/code/Originator";
+import {Caretaker} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Nested_Concept/code/Caretaker";
 
 const originator = new Originator();
 const caretaker = new Caretaker();

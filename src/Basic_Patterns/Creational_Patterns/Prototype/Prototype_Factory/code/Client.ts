@@ -1,9 +1,10 @@
 import {
     ConcretePrototype
-} from "./Prototypes/ConcretePrototype";
+} from "src/Basic_Patterns/Creational_Patterns/Prototype/Prototype_Factory/code/Prototypes/ConcretePrototype";
 import {
     PrototypeFactory
-} from "./PrototypeFactory";
+} from "src/Basic_Patterns/Creational_Patterns/Prototype/Prototype_Factory/code/PrototypeFactory";
+
 
 const factory = new PrototypeFactory();
 

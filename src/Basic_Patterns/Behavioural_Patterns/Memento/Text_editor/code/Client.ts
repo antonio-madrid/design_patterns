@@ -1,5 +1,5 @@
-import {Editor} from "./Editor";
-import {Command} from "./Command";
+import {Editor} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Text_editor/code/Editor";
+import {Command} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Text_editor/code/Command";
 
 const editor = new Editor();
 const command = new Command(editor);

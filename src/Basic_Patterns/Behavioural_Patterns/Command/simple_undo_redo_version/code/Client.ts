@@ -1,5 +1,5 @@
-import {AddCommand} from "./AddCommand";
-import {CommandInvoker} from "./commands/CommandInvoker";
+import {AddCommand} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_undo_redo_version/code/AddCommand";
+import {CommandInvoker} from "src/Basic_Patterns/Behavioural_Patterns/Command/simple_undo_redo_version/code/commands/CommandInvoker";
 
 let list: string[] = [];
 const invoker: CommandInvoker = new CommandInvoker();

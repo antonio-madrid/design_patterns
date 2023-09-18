@@ -1,5 +1,5 @@
-import {Command} from "./Command";
-import {Receiver} from "../Receiver";
+import {Command} from "src/Basic_Patterns/Behavioural_Patterns/Command/normal_undo_version/code/commands/Command";
+import {Receiver} from "src/Basic_Patterns/Behavioural_Patterns/Command/normal_undo_version/code/Receiver";
 
 export class ConcreteCommand extends Command {
 

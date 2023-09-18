@@ -1,4 +1,4 @@
-import { IGraphSnapshot } from "./IGraphSnapshot";
+import { IGraphSnapshot } from "src/Basic_Patterns/Behavioural_Patterns/Memento/Complex_graph_objects/code/IGraphSnapshot";
 
 /** Caretaker */
 class GraphManager {

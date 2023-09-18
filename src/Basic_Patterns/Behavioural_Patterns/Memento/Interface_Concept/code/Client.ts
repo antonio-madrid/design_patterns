@@ -1,5 +1,5 @@
-import {Originator} from "./Originator";
-import {CareTaker} from "./CareTaker";
+import {Originator} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Interface_Concept/code/Originator";
+import {CareTaker} from "src/Basic_Patterns/Behavioural_Patterns/Memento/Interface_Concept/code/CareTaker";
 
 const originator: Originator = new Originator('Super-duper-super-puper-super');
 const caretaker: CareTaker = new CareTaker(originator);
