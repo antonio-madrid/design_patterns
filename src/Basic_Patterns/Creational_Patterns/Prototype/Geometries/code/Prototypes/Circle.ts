@@ -10,7 +10,7 @@ class Circle extends Shape {
     }
 
     public clone(): Circle {
-        /** passing() creates a shallow copy*/
+        /** assign() creates a shallow copy*/
         return Object.assign(Object.create(this));
     }
 }

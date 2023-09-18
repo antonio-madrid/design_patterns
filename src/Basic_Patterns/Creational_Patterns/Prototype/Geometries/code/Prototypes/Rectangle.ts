@@ -7,7 +7,7 @@ class Rectangle extends Shape {
     }
 
     public clone(): Rectangle {
-        /** passing() creates a shallow copy*/
+        /** assign() creates a shallow copy*/
         return Object.assign(Object.create(this));
     }
 }

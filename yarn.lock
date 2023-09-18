@@ -66,6 +66,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^20.6.2":
+  version: 20.6.2
+  resolution: "@types/node@npm:20.6.2"
+  checksum: 96fe5303872640a173f3fd43e289a451776ed5b8f0090094447c6790b43f23fb607eea8268af0829cef4d132e5afa0bfa4cd871aa7412e9042a414a698e9e971
+  languageName: node
+  linkType: hard
+
 "acorn-walk@npm:^8.1.1":
   version: 8.2.0
   resolution: "acorn-walk@npm:8.2.0"
@@ -100,6 +107,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "design_patterns@workspace:."
   dependencies:
+    "@types/node": ^20.6.2
     dotenv: ^16.3.1
     ts-node: ^10.9.1
     typescript: ^5.2.2
