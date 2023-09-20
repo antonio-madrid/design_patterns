@@ -54,6 +54,7 @@
     "strategy:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Strategy/Concept/code/Client.ts",
     "strategy:calcalation": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Strategy/Calculation_Strategy/code/Client.ts",
     "strategy:eCommerce": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Strategy/eCommerce/code/Client.ts",
+    "strategy:functional_type": "run ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Strategy/Functional_Type/code/Client.ts",
     "perfomance_patterns:lazy_initialization:data_class": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Initialization/data_class/index.ts",
     "performance_patterns:lazy_loading:library_loading": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
     "performance_patterns:memoization:fibonnaci": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts"
