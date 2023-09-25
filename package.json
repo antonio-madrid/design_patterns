@@ -38,6 +38,7 @@
     "abstract_factory:super_mario_maker": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Creational_Patterns/Abstract_Factory/Mario_Maker_Factory/code/client/Client.ts",
     "abstract_factory:furniture_shop": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Creational_Patterns/Abstract_Factory/furniture_factory/code/client/Client.ts",
     "abstract_factory:ui_buttons": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Creational_Patterns/Abstract_Factory/GUI_factory/code/client/Client.ts",
+    "builder:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Creational_Patterns/Builder/Concept/code/Client.ts",
     "builder:car": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Creational_Patterns/Builder/Car_Builder/code/Client.ts",
     "prototype:js_concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Creational_Patterns/Prototype/JS_Concept/code/Client.ts",
     "prototype:geometrics": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Creational_Patterns/Prototype/Geometries/code/Client.ts",
