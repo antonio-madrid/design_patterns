@@ -30,3 +30,4 @@ stoneHouse.show();
 director.construct(diamonBuilder);
 const diamonHouse = diamonBuilder.getResult();
 diamonHouse.show();
+
