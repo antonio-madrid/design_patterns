@@ -5,35 +5,31 @@ abstract class GameAI {
         this.buildStructures();
         this.buildUnits();
         this.attack();
-        this.sendScouts(this.getScoutPosition());
-        this.sendWarriors(this.getWarriorPosition());
+        this.sendScouts('la posición mas cercana');
+        this.sendWarriors('la posición enemiga');
     }
 
-    protected collectResources() {
+    public collectResources() {
         console.log("Recopilando recursos genéricos.");
     }
 
-    protected buildStructures() {
+    public buildStructures() {
         console.log("Construyendo estructuras genéricas.");
     }
 
-    protected buildUnits() {
+    public buildUnits() {
         console.log("Construyendo unidades genéricas.");
     }
 
-    protected abstract attack(): void;
+    public abstract attack(): void;
 
-    protected sendScouts(position: string) {
+    public sendScouts(position: string) {
         console.log(`Enviando exploradores a ${position}.`);
     }
 
-    protected sendWarriors(position: string) {
+    public sendWarriors(position: string) {
         console.log(`Enviando guerreros a ${position}.`);
     }
-
-    protected abstract getScoutPosition(): string;
-
-    protected abstract getWarriorPosition(): string;
 }
 
 export { GameAI };
