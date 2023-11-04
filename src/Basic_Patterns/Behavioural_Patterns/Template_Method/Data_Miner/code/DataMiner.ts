@@ -17,6 +17,7 @@ abstract class DataMiner {
 
     protected abstract extractData(file: string): string;
 
+    /** Default implementation */
     protected parseData(rawData: string): any {
         console.log(`Parsing data: ${rawData}`);
         return { parsed: true };
@@ -28,10 +29,12 @@ abstract class DataMiner {
         return { analyzed: true };
     }
 
+    /** Default implementation */
     protected sendReport(analysis: any) {
         console.log(`Sending report: ${JSON.stringify(analysis)}`);
     }
 
+    /** Default implementation */
     protected closeFile(file: string) {
         console.log(`Closing file: ${file}`);
     }
