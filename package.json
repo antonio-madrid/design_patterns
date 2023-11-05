@@ -62,6 +62,10 @@
     "template_method:game_ai": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Template_Method/AI_Game/code/Client.ts",
     "template_method:data_miner": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Template_Method/Data_Miner/code/Client.ts",
     "bridge:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Bridge/concept/code/Client.ts",
+    "bridge:remote_control": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Bridge/Remote_Control/code/Client.ts",
+    "bridge:shape_render": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Bridge/Shape_Render/code/Client.ts",
+    "bridge:notifications": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Bridge/Notifications/code/Client.ts",
+    "bridge:audio_player": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Bridge/Audio_Player/code/Client.ts",
     "perfomance_patterns:lazy_initialization:data_class": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Initialization/data_class/index.ts",
     "performance_patterns:lazy_loading:library_loading": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
     "performance_patterns:memoization:fibonnaci": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts"
