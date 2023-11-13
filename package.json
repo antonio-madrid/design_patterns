@@ -73,6 +73,8 @@
     "composite:vector_graphics": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Composite/Vector_Graphics/code/Client.ts",
     "decorator:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/Client.ts",
     "flyweight:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/Concept/code/Client.ts",
+    "flyweight:text_editor": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/Text_editor/code/Client.ts",
+    "flyweight:db_connection": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/DB_connections/code/Client.ts",
     "perfomance_patterns:lazy_initialization:data_class": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Initialization/data_class/index.ts",
     "performance_patterns:lazy_loading:library_loading": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
     "performance_patterns:memoization:fibonnaci": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts"

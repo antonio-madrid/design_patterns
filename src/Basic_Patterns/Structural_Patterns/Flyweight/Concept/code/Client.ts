@@ -1,28 +1,22 @@
 import {FlyweightFactory} from "src/Basic_Patterns/Structural_Patterns/Flyweight/Concept/code/FlyweightFactory";
+import {Context} from "src/Basic_Patterns/Structural_Patterns/Flyweight/Concept/code/Context";
 
 const factory = new FlyweightFactory([
-    ['Chevrolet', 'Camaro2018', 'pink'],
-    ['Mercedes Benz', 'C300', 'black'],
-    ['Mercedes Benz', 'C500', 'red'],
-    ['BMW', 'M5', 'red'],
-    ['BMW', 'X6', 'white'],
-    ['Tesla', 'Model Y', 'white']
+    'Block',
+    'Circle',
+    'Triangle',
 ]);
 factory.listFlyweights();
 
-function addCarToPoliceDatabase(
-    ff: FlyweightFactory, plates: string, owner: string,
-    brand: string, model: string, color: string
-) {
-    console.log(`\nClient: Adding a car to database.`);
-    const flyweight = ff.getFlyweight([brand, model, color]);
+const context1 = new Context('red', factory.getFlyweight('Block'));
+const context2 = new Context('blue', factory.getFlyweight('Triangle'));
+const context3 = new Context('orange', factory.getFlyweight('Block'));
 
-    flyweight.operation([plates, owner]);
-}
-
-addCarToPoliceDatabase(factory, 'CL234IR', 'James Doe', 'BMW', 'M5', 'red');
-addCarToPoliceDatabase(factory, 'CL234IR', 'James Doe', 'BMW', 'X1', 'red');
-addCarToPoliceDatabase(factory, 'MK20035', 'Antonio Madrid', 'Tesla', 'Model 3', 'white');
+context1.operation();
+context2.operation();
+context3.operation()
 
 factory.listFlyweights();
+
+
 

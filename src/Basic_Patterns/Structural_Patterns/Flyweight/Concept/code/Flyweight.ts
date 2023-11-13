@@ -1,14 +1,11 @@
 class Flyweight {
-    private readonly shareState: any;
-
-    constructor(sharedState: any) {
-        this.shareState = sharedState;
+    /** immutable field */
+    constructor(public readonly sharedState: string) {
     }
 
-    public operation(uniqueState: any): void {
-        const shared = JSON.stringify(this.shareState);
-        const unique = JSON.stringify(uniqueState);
-        console.log(`Flyweight: Displaying shared (${shared}) and unique (${unique}) state.`);
+    /** Context operation */
+    public operation(uniqueState: string): void {
+        console.log(`Flyweight: Displaying shared (${this.sharedState}) and unique (${uniqueState}) state.`);
     }
 }
 
