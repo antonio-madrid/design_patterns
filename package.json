@@ -75,6 +75,7 @@
     "decorator:permissions": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Decorator/Permission_System/code/Client.ts",
     "decorator:logger": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Decorator/Logger/code/Client.ts",
     "decorator:vehicle_improver": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Decorator/Vehicle_Improver/code/Client.ts",
+    "decorator:notifier": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Decorator/Notifier/code/Client.ts",
     "flyweight:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/Concept/code/Client.ts",
     "flyweight:text_editor": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/Text_editor/code/Client.ts",
     "flyweight:db_connection": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/DB_connections/code/Client.ts",
