@@ -1,4 +1,4 @@
-import {Process} from "src/Basic_Patterns/Structural_Patterns/Decorator/Logger/code/Process";
+import {Process} from "src/Basic_Patterns/Structural_Patterns/Decorator/Logger/code/components/Process";
 
 class LoggingDecorator implements Process {
     constructor(protected process: Process) {}

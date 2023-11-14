@@ -1,7 +1,7 @@
-import {ConcreteComponent} from "src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/ConcreteComponent";
+import {ConcreteComponent} from "src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/components/ConcreteComponent";
 import {ConcreteDecoratorA} from "src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/Decorators/ConcreteDecoratorA";
 import {ConcreteDecoratorB} from "src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/Decorators/ConcreteDecoratorB";
-import {Component} from "src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/Component";
+import {Component} from "src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/components/Component";
 
 function clientCode(component: Component) {
   console.log(`RESULT: ${component.operation()}`);

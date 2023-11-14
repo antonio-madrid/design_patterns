@@ -1,4 +1,4 @@
-import {BasicUser} from "src/Basic_Patterns/Structural_Patterns/Decorator/Permission_System/code/BasicUser";
+import {BasicUser} from "src/Basic_Patterns/Structural_Patterns/Decorator/Permission_System/code/components/BasicUser";
 import {
     AdminDecorator
 } from "src/Basic_Patterns/Structural_Patterns/Decorator/Permission_System/code/decorators/AdminDecorator";

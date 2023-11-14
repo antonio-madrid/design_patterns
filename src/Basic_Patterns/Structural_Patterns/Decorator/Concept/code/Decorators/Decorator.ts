@@ -1,4 +1,4 @@
-import {Component} from "src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/Component";
+import {Component} from "src/Basic_Patterns/Structural_Patterns/Decorator/Concept/code/components/Component";
 
 class Decorator implements Component {
     protected component: Component;

@@ -1,6 +1,6 @@
 import {
     DataSourceDecorator
-} from "src/Basic_Patterns/Structural_Patterns/Decorator/Notifier/code/decorators/DataSourceDecorator";
+} from "src/Basic_Patterns/Structural_Patterns/Decorator/DataSource/code/decorators/DataSourceDecorator";
 
 class EncryptionDecorator extends DataSourceDecorator {
     public writeData(data: string) {

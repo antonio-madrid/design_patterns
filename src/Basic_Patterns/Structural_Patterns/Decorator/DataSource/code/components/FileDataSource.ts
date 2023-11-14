@@ -1,4 +1,4 @@
-import {DataSource} from "src/Basic_Patterns/Structural_Patterns/Decorator/Notifier/code/DataSource";
+import {DataSource} from "src/Basic_Patterns/Structural_Patterns/Decorator/DataSource/code/components/DataSource";
 
 class FileDataSource implements DataSource {
     constructor(private filename: string) {}

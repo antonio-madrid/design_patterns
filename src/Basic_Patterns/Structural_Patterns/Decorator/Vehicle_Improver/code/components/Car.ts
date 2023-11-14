@@ -1,4 +1,4 @@
-import {Vehicle} from "src/Basic_Patterns/Structural_Patterns/Decorator/Vehicle_Improver/code/Vehicle";
+import {Vehicle} from "src/Basic_Patterns/Structural_Patterns/Decorator/Vehicle_Improver/code/components/Vehicle";
 
 class Car implements Vehicle {
     public getDescription(): string {
