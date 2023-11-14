@@ -2,7 +2,9 @@ import {Flyweight} from "src/Basic_Patterns/Structural_Patterns/Flyweight/Concep
 
 class Context {
     constructor(
+        // mutable data
         private uniqueState: string,
+        // immutable data
         private flyweight: Flyweight
     ) {}
 

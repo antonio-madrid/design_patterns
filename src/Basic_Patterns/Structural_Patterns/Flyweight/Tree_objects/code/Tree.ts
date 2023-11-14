@@ -2,6 +2,7 @@ import {TreeType} from "src/Basic_Patterns/Structural_Patterns/Flyweight/Tree_ob
 
 /** Contextual object class */
 class Tree {
+    /** Mutable data */
     constructor(
         public x: number,
         public y: number,

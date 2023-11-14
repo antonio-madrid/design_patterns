@@ -3,7 +3,7 @@ import {CharacterFlyweight} from "src/Basic_Patterns/Structural_Patterns/Flyweig
 class CharacterFactory {
     private characters: { [key: string]: CharacterFlyweight } = {};
 
-    getCharacter(char: string): CharacterFlyweight {
+    public getCharacter(char: string): CharacterFlyweight {
         if (!this.characters[char]) {
             console.log(`Character not found, creating a new Flyweight object with data: ${char}.`)
             this.characters[char] = new CharacterFlyweight(char);

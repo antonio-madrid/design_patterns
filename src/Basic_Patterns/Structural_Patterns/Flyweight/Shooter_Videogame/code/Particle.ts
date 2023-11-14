@@ -1,5 +1,6 @@
 /** Flyweight class */
 class Particle {
+    /** Immutable data */
     constructor(
         public color: string,
         public sprite: string

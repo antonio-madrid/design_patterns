@@ -2,6 +2,7 @@ import {Particle} from "src/Basic_Patterns/Structural_Patterns/Flyweight/Shooter
 
 /** Context clas */
 class MovingParticle {
+    /** Mutable data */
     constructor(
         public particle: Particle,
         private coords: number[],
