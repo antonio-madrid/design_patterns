@@ -22,8 +22,8 @@ class Game {
 
     private findParticle(color: string, sprite: string): Particle | undefined {
         for (const movingParticle of this.movingParticles) {
-            if (movingParticle.particle.color == color
-            && movingParticle.particle.sprite === sprite) {
+            if (movingParticle.particle.getColor() == color
+            && movingParticle.particle.getSprite() === sprite) {
                 return movingParticle.particle;
             }
         }

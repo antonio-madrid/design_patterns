@@ -2,9 +2,17 @@
 class Particle {
     /** Immutable data */
     constructor(
-        public color: string,
-        public sprite: string
+        private color: string,
+        private sprite: string
     ) {}
+
+    public getColor(): string {
+        return this.color;
+    }
+
+    public getSprite(): string {
+        return this.sprite;
+    }
 
     public move(coords: number[], vector: number[], speed: number): void {
         console.log('Logic to move the particle');

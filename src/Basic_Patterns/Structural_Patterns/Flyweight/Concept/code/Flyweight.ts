@@ -1,6 +1,10 @@
 class Flyweight {
     /** immutable field */
-    constructor(public readonly sharedState: string) {
+    constructor(private readonly sharedState: string) {
+    }
+
+    public getSharedState(): string {
+        return this.sharedState;
     }
 
     /** Context operation */
