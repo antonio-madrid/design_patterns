@@ -80,6 +80,8 @@
     "flyweight:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/Concept/code/Client.ts",
     "flyweight:text_editor": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/Text_editor/code/Client.ts",
     "flyweight:db_connection": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Structural_Patterns/Flyweight/DB_connections/code/Client.ts",
+    "chain_of_responsibility:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Chain_of_Responsibility/Concept/code/Client.ts",
+    "chain_of_responsibility:hep_system": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Chain_of_Responsibility/GUI_help_system/code/Client.ts",
     "perfomance_patterns:lazy_initialization:data_class": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Initialization/data_class/index.ts",
     "performance_patterns:lazy_loading:library_loading": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
     "performance_patterns:memoization:fibonnaci": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts"
