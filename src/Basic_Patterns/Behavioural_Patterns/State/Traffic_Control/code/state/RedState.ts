@@ -4,6 +4,7 @@ import {
 import {TrafficLight} from "src/Basic_Patterns/Behavioural_Patterns/State/Traffic_Control/code/TrafficLight";
 import {GreenState} from "src/Basic_Patterns/Behavioural_Patterns/State/Traffic_Control/code/state/GreenState";
 
+/** Concrete State */
 class RedState implements TrafficLightState {
     constructor(private light: TrafficLight) {}
 

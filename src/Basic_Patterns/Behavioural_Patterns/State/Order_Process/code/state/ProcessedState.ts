@@ -2,6 +2,7 @@ import {OrderState} from "src/Basic_Patterns/Behavioural_Patterns/State/Order_Pr
 import {Order} from "src/Basic_Patterns/Behavioural_Patterns/State/Order_Process/code/Order";
 import {ShippedState} from "src/Basic_Patterns/Behavioural_Patterns/State/Order_Process/code/state/ShippedState";
 
+/** Concrete State */
 class ProcessedState implements OrderState {
     constructor(private order: Order) {}
 

@@ -1,6 +1,7 @@
 import {OrderState} from "src/Basic_Patterns/Behavioural_Patterns/State/Order_Process/code/state/OrderState";
 import {Order} from "src/Basic_Patterns/Behavioural_Patterns/State/Order_Process/code/Order";
 
+/** Concrete State */
 class CancelledState implements OrderState {
     constructor(private order: Order) {}
 

@@ -1,6 +1,7 @@
 import {OrderState} from "src/Basic_Patterns/Behavioural_Patterns/State/Order_Process/code/state/OrderState";
 import {NewState} from "src/Basic_Patterns/Behavioural_Patterns/State/Order_Process/code/state/NewState";
 
+/** Context class */
 class Order {
     private state: OrderState;
 

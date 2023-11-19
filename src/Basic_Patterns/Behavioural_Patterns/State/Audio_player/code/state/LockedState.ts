@@ -2,6 +2,7 @@ import {State} from "src/Basic_Patterns/Behavioural_Patterns/State/Audio_player/
 import {PlayingState} from "src/Basic_Patterns/Behavioural_Patterns/State/Audio_player/code/state/PlayingState";
 import {ReadyState} from "src/Basic_Patterns/Behavioural_Patterns/State/Audio_player/code/state/ReadyState";
 
+/** Concrete State */
 class LockedState extends State {
     clickLock() {
         if (this.player.playing) {

@@ -1,3 +1,4 @@
+/** State Interface */
 interface OrderState {
     next(): void;
     cancel(): void;

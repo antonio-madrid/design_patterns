@@ -2,6 +2,7 @@ import {State} from "src/Basic_Patterns/Behavioural_Patterns/State/Audio_player/
 import {ReadyState} from "src/Basic_Patterns/Behavioural_Patterns/State/Audio_player/code/state/ReadyState";
 import {UserInterface} from "src/Basic_Patterns/Behavioural_Patterns/State/Audio_player/code/UserInterface";
 
+/** Context class */
 class AudioPlayer {
     private state: State;
     UI: UserInterface;

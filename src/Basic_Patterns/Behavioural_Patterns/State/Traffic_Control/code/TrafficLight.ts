@@ -3,6 +3,7 @@ import {
 } from "src/Basic_Patterns/Behavioural_Patterns/State/Traffic_Control/code/state/TrafficLightState";
 import {RedState} from "src/Basic_Patterns/Behavioural_Patterns/State/Traffic_Control/code/state/RedState";
 
+/** Context class */
 class TrafficLight {
     private state: TrafficLightState;
 

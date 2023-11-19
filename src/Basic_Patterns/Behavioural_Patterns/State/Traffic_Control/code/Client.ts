@@ -1,9 +1,9 @@
 import {TrafficLight} from "src/Basic_Patterns/Behavioural_Patterns/State/Traffic_Control/code/TrafficLight";
 
-const traffictLight = new TrafficLight();
-console.log(traffictLight.sign()); // 'STOP'
-traffictLight.change();
-console.log(traffictLight.sign()); // 'GO'
-traffictLight.change();
-console.log(traffictLight.sign()); // 'CAUTION'
-traffictLight.change();
+const trafficLight = new TrafficLight();
+console.log(trafficLight.sign()); // 'STOP'
+trafficLight.change();
+console.log(trafficLight.sign()); // 'GO'
+trafficLight.change();
+console.log(trafficLight.sign()); // 'CAUTION'
+trafficLight.change();

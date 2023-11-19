@@ -2,6 +2,7 @@ import {CharacterState} from "src/Basic_Patterns/Behavioural_Patterns/State/Plat
 import {RunningState} from "src/Basic_Patterns/Behavioural_Patterns/State/Platform_game/code/state/RunningState";
 import {Character} from "src/Basic_Patterns/Behavioural_Patterns/State/Platform_game/code/Character";
 
+/** Concrete state */
 class FallingState implements  CharacterState {
     constructor(private character: Character) {}
 
