@@ -1,14 +1,13 @@
-import {BaseConcreteState} from "src/Basic_Patterns/Behavioural_Patterns/State/Concept/code/state/BaseConcreteState";
 import {State} from "src/Basic_Patterns/Behavioural_Patterns/State/Concept/code/state/State";
 
 class Context {
     private state!: State;
 
-    constructor(state: BaseConcreteState) {
+    constructor(state: State) {
         this.transitionTo(state);
     }
 
-    public transitionTo(state: BaseConcreteState): void {
+    public transitionTo(state: State): void {
         console.log(`Context: Transition to ${(<any>state).constructor.name}.`);
         this.state = state;
         this.state.setContext(this);
