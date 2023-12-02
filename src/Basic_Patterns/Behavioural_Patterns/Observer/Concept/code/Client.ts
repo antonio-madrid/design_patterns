@@ -1,18 +1,18 @@
-import {ConcreteSubject} from "src/Basic_Patterns/Behavioural_Patterns/Observer/Concept/code/subjects/ConcreteSubject";
+import {ConcretePublisher} from "src/Basic_Patterns/Behavioural_Patterns/Observer/Concept/code/publishers/ConcretePublisher";
 import {ConcreteObserverA} from "src/Basic_Patterns/Behavioural_Patterns/Observer/Concept/code/observers/ConcreteObserverA";
 import {ConcreteObserverB} from "src/Basic_Patterns/Behavioural_Patterns/Observer/Concept/code/observers/ConcreteObserverB";
 
-const subject = new ConcreteSubject();
+const publisher = new ConcretePublisher();
 
 const observer1 = new ConcreteObserverA();
-subject.attach(observer1);
+publisher.attach(observer1);
 
 const observer2 = new ConcreteObserverB();
-subject.attach(observer2);
+publisher.attach(observer2);
 
-subject.someBusinessLogic();
-subject.someBusinessLogic();
+publisher.someBusinessLogic();
+publisher.someBusinessLogic();
 
-subject.detach(observer2);
+publisher.detach(observer2);
 
-subject.someBusinessLogic();
+publisher.someBusinessLogic();

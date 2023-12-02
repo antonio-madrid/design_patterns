@@ -1,7 +1,7 @@
-import {Subject} from "src/Basic_Patterns/Behavioural_Patterns/Observer/Concept/code/subjects/Subject";
+import {Publisher} from "src/Basic_Patterns/Behavioural_Patterns/Observer/Concept/code/publishers/Publisher";
 
 interface Observer {
-    update(subject: Subject): void;
+    update(publisher: Publisher): void;
 }
 
 export { Observer };
