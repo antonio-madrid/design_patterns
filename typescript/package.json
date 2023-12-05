@@ -95,6 +95,9 @@
     "observer:text_editor": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Observer/Text_editor/code/Client.ts",
     "visitor:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Visitor/Concept/code/Client.ts",
     "visitor:shapes": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Visitor/Geometric_Shapes/code/Application.ts",
+    "visitor:document_app": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Visitor/Document_app/code/Client.ts",
+    "visitor:composite_tree": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Visitor/CompositeTree/code/Client.ts",
+    "visitor:hr_system": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Visitor/HR_System/code/Client.ts",
     "perfomance_patterns:lazy_initialization:data_class": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Initialization/data_class/index.ts",
     "performance_patterns:lazy_loading:library_loading": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
     "performance_patterns:memoization:fibonnaci": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts"
