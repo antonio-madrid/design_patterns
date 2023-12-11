@@ -8,7 +8,7 @@ import {
 import {Textbox} from "src/Basic_Patterns/Behavioural_Patterns/Mediator/Authentication_Dialog/code/components/Textbox";
 import {Button} from "src/Basic_Patterns/Behavioural_Patterns/Mediator/Authentication_Dialog/code/components/Button";
 
-
+/** Concrete Mediator */
 class AuthenticationDialog implements Mediator {
     title: string;
     loginOrRegisterCheckbox: Checkbox;

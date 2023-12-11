@@ -103,6 +103,12 @@
     "mediator:user_interface": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Mediator/User_Interface/code/Client.ts",
     "mediator:widgets": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Mediator/Widgets/code/Client.ts",
     "mediator:authentication_dialog": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Mediator/Authentication_Dialog/code/Client.ts",
+    "iterator:concept": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Iterator/Concept/code/Client.ts",
+    "iterator:array_iterator": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Iterator/Array_Iterator/code/Client.ts",
+    "iterator:social_network": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Iterator/Social_Network/code/Client.ts",
+    "iterator:music_library": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Iterator/Music_Library/code/Client.ts",
+    "iterator:task_manager": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Iterator/Task_Manager/code/Client.ts",
+    "iterator:facebook_and_linkedin": "ts-node -r tsconfig-paths/register src/Basic_Patterns/Behavioural_Patterns/Iterator/Facebook_And_Linkendin_Graphs/code/Client.ts",
     "perfomance_patterns:lazy_initialization:data_class": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Initialization/data_class/index.ts",
     "performance_patterns:lazy_loading:library_loading": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Lazy_Loading/library_loading/index.ts",
     "performance_patterns:memoization:fibonnaci": "ts-node -r tsconfig-paths/register src/Performance_Patterns/Memoization/Fibonnaci_memoized/index.ts"

@@ -1,5 +1,6 @@
 import {Mediator} from "src/Basic_Patterns/Behavioural_Patterns/Mediator/Authentication_Dialog/code/mediators/Mediator";
 
+/** Base Component */
 abstract class Component {
     constructor(protected dialog: Mediator) {}
 
