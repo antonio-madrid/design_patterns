@@ -5,9 +5,22 @@ jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '18'
       - run: npm install -g bats
       - run: bats -v
+
+      - name: PWD
+        run: |
+          pwd
+          cd .github/actions/hello-bash
+          ls -la
+          ls -la /home/runner/work/design_patterns/design_patterns/.github/actions/hello-bash
+
+      - name: Rune Hello World Action
+        uses: ./../design_patterns/.github/actions/hello-bash
+        with:
+          who-to-greet: 'Antonio'
