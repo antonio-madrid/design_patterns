@@ -21,6 +21,6 @@ jobs:
           ls -la /home/runner/work/design_patterns/design_patterns/.github/actions/hello-bash
 
       - name: Rune Hello World Action
-        uses: ./../design_patterns/.github/actions/hello-bash
+        uses: ./.github/actions/hello-bash
         with:
           who-to-greet: 'Antonio'
