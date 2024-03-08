@@ -20,7 +20,12 @@ jobs:
           ls -la
           ls -la /home/runner/work/design_patterns/design_patterns/.github/actions/hello-bash
 
-      - name: Rune Hello World Action
+      - name: Run Hello World Action
         uses: ./.github/actions/hello-bash
         with:
           who-to-greet: 'Antonio'
+
+      - name: Run Bash twice
+        uses: ./.github/actions/bash_twice.yml
+        with:
+          who-to-greet: 'Super Antonio'
