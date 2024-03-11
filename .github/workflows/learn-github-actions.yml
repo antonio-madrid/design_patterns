@@ -1,15 +1,17 @@
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
-on: [push]
+on: [ push ]
 jobs:
-  check-bats-version:
+  my-first-job:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+
       - uses: actions/setup-node@v4
         with:
           node-version: '18'
+
       - run: npm install -g bats
       - run: bats -v
 
@@ -24,8 +26,3 @@ jobs:
         uses: ./.github/actions/hello-bash
         with:
           who-to-greet: 'Antonio'
-
-      - name: Run Bash twice
-        uses: ./.github/actions/bash_twice.yml
-        with:
-          who-to-greet: 'Super Antonio'
