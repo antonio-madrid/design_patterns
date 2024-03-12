@@ -44,3 +44,6 @@ jobs:
       - name: Use startsWith function
         run: echo ${{ startsWith('Hello World', 'Hello') }}
 
+      - name: Use format function
+        run: echo ${{ format('Hello {0}, {1}', 'World', 'Antonio') }}
+
