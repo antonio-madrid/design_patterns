@@ -57,3 +57,6 @@ jobs:
         run: |
           echo ${{ fromJSON('false') }}
           echo ${{ fromJSON('34') }}
+
+      - name: Use hashFiles function
+        run: echo ${{ hashFiles('**/package.json') }}
