@@ -1,8 +1,13 @@
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [ push ]
+env:
+  MY_GLOBAL_VAR: 'This is a global variable'
 jobs:
   my-first-job:
+    env:
+      MY_LOCAL_VAR: ${{ 34 }}
+
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -26,3 +31,10 @@ jobs:
         uses: ./.github/actions/hello-bash
         with:
           who-to-greet: 'Antonio'
+
+      - name: Show global var
+        run: echo $MY_GLOBAL_VAR
+
+      - name: Show local var
+        run: echo $MY_LOCAL_VAR
+
