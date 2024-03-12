@@ -48,6 +48,7 @@ jobs:
         run: echo ${{ format('Hello {0}, {1}', 'World', 'Antonio') }}
 
       - name: Use join function
-#        run: echo ${{ join(fromJSON('["Hello", "World"]'), ' ') }}
-        run: echo ${{ join(fromJSON('["Hello", "World"]')) }}
+        run: echo ${{ join(fromJSON('["Hello", "World"]'), ' ') }}
 
+      - name: Use toJSON function
+        run: echo ${{ toJSON('age') }}
