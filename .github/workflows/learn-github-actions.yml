@@ -41,3 +41,6 @@ jobs:
       - name: Use contains function
         run: echo ${{ contains(fromJSON('[1, 2, 3, 4, 5]'), 3) }}
 
+      - name: Use startsWith function
+        run: echo ${{ startsWith('Hello World', 'Hello') }}
+
