@@ -38,6 +38,6 @@ jobs:
       - name: Show local var
         run: echo $MY_LOCAL_VAR
 
-      - name: Show expression value
-        run: echo ${{ (33 + 1) }}
+      - name: Use contains function
+        run: echo ${{ contains(fromJSON('[1, 2, 3, 4, 5]'), 3) }}
 
