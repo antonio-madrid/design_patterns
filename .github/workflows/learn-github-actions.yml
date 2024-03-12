@@ -52,3 +52,8 @@ jobs:
 
       - name: Use toJSON function
         run: echo ${{ toJSON('age') }}
+
+      - name: Use fromJSON function
+        run: |
+          echo ${{ fromJSON('false') }}
+          echo ${{ fromJSON('34') }}
