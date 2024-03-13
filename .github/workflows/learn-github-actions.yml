@@ -77,3 +77,6 @@ jobs:
           echo ${{ env.LOCAL_ENV_VAR }}
           echo ${{ env.MY_GLOBAL_VAR }}
           echo $MY_GLOBAL_VAR
+
+      - name: Accessing vars context
+        run: echo ${{ vars.JOB_NAME }}
