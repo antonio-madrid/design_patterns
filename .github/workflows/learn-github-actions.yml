@@ -3,7 +3,6 @@ run-name: ${{ github.actor }} is learning GitHub Actions
 on: [ push ]
 env:
   MY_GLOBAL_VAR: 'This is a global variable'
-  GITHUB_CONTEXT: ${{ toJSON(github) }}
 
 jobs:
   my-first-job:
@@ -64,6 +63,9 @@ jobs:
         run: echo ${{ hashFiles('**/package.json') }}
 
       - name: Accessing context
+        env:
+          GITHUB_CONTEXT: ${{ toJSON(github) }}
         run: |
           echo ${{ github.actor }}
           echo $GITHUB_CONTEXT
+          echo ${{ toJSON(github) }}
