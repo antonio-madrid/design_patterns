@@ -67,5 +67,13 @@ jobs:
           GITHUB_CONTEXT: ${{ toJSON(github) }}
         run: |
           echo ${{ github.actor }}
-          echo $GITHUB_CONTEXT
-          echo ${{ toJSON(github) }}
+#          echo $GITHUB_CONTEXT
+#          echo ${{ toJSON(github) }}
+
+      - name: Accessing env
+        env:
+          LOCAL_ENV_VAR: 'Antonio'
+        run: | 
+          echo ${{ env.LOCAL_ENV_VAR }}
+          echo ${{ env.MY_GLOBAL_VAR }}
+          echo $MY_GLOBAL_VAR
