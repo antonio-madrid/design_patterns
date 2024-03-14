@@ -9,7 +9,11 @@ jobs:
     env:
       MY_LOCAL_VAR: ${{ 34 }}
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-20.04, ubuntu-latest]
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -79,4 +83,4 @@ jobs:
           echo $MY_GLOBAL_VAR
 
       - name: Accessing vars context
-        run: echo ${{ vars.JOB_NAME }}
+        run: echo ${{ vars.MY_TEST_ENV }}
