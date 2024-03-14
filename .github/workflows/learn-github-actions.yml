@@ -6,6 +6,7 @@ env:
 
 jobs:
   my-first-job:
+    environment: TEST_ENV
     env:
       MY_LOCAL_VAR: ${{ 34 }}
 
