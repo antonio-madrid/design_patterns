@@ -85,3 +85,6 @@ jobs:
 
       - name: Accessing vars context
         run: echo ${{ vars.MY_TEST_ENV }}
+
+      - name: Accessing repository vars
+        run: echo ${{ vars.REPOSITORY_VAR }}
