@@ -88,3 +88,9 @@ jobs:
 
       - name: Accessing repository vars
         run: echo ${{ vars.REPOSITORY_VAR }}
+
+      - name: Modify a env var
+        run: echo "MY_GLOBAL_VAR=This is a new global value" >> $GITHUB_ENV
+
+      - name: Access to the modified env var
+        run: echo $MY_GLOBAL_VAR
