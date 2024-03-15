@@ -94,3 +94,21 @@ jobs:
 
       - name: Access to the modified env var
         run: echo $MY_GLOBAL_VAR
+
+
+  parent-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is a parent job"
+
+  child-job:
+    needs: parent-job
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is a child job executed after the parent job"
+
+  child-dependant-job:
+    needs: child-job
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This is another dependant job which depends of the child-job"
