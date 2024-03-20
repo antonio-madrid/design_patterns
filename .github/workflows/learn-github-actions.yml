@@ -5,7 +5,7 @@ env:
   MY_GLOBAL_VAR: 'This is a global variable'
 
 jobs:
-  my-first-job:
+  my-mega-job:
     environment: TEST_ENV
     env:
       MY_LOCAL_VAR: ${{ 34 }}
@@ -14,6 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-20.04, ubuntu-latest]
+        version: ['local', 'prod', 'tintW']
 
     steps:
       - name: Checkout code
@@ -94,6 +95,9 @@ jobs:
 
       - name: Access to the modified env var
         run: echo $MY_GLOBAL_VAR
+
+      - name: Running another matrix
+        run: echo ${{ matrix.version }}
 
 
   parent-job:
