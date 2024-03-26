@@ -1,6 +1,6 @@
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
-on: [ push ]
+on: [ push, workflow_dispatch ]
 env:
   MY_GLOBAL_VAR: 'This is a global variable'
 
@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-20.04, ubuntu-latest]
-        version: ['local', 'prod', 'tintW']
+        version: ['local', 'prod', 'tint']
 
     steps:
       - name: Checkout code
